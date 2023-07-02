@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+
+.heroo p {
+  font-size: 17px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 1200px;
+  height: 100%;
+  padding: 65px 190px;
+}
+
+.heroo h1 {
+  color: #2075bc;
+  font-size: 60px;
+  letter-spacing: 0.3px;
+  font-family: "Poppins", sans-serif;
+}
+
+

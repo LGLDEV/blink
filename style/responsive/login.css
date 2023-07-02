@@ -1,0 +1,105 @@
+@media screen and (max-width: 1300px) {
+  .body {
+    padding: 30px 70px;
+  }
+
+  .modal .div.active {
+    top: 100px;
+    left: 250px;
+    width: 300px;
+    z-index: 100;
+  }
+
+
+  .modal p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .hero {
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+  }
+
+  header {
+    margin-top: 0px;
+    margin-bottom: 150px;
+  }
+
+  .body {
+    align-items: start;
+    padding: 20px;
+  }
+
+  .input input {
+    width: 300px;
+  }
+
+  .flex .square {
+    width: 200px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .content {
+    max-width: 400px;
+  }
+
+  .input input {
+    width: 280px !important;
+  }
+
+  .arrow {
+    left: -120px;
+    width: 400px;
+    top: 20px;
+    z-index: 1;
+  }
+
+  .input i {
+    right: 50px;
+  }
+
+  body {
+    overflow: visible;
+  }
+
+  .modal .first {
+    display: none;
+  }
+
+  .modal .second {
+    display: block;
+  }
+
+  .modal .div.active {
+    left: 100px;
+    top: 120px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .body{
+    padding: 0;
+    width: 100%;
+  }
+
+  .hero{
+    width: 100%;
+  }
+
+  .modal .div.active{
+    left: 60px;
+  }
+}
+
+
+@media screen and (max-width:435px) {
+  .button{
+    width: 100%;
+  }
+}

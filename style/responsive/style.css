@@ -1,0 +1,75 @@
+*{
+  z-index: 100;
+}
+
+@media screen and (max-width: 1300px) {
+.body {
+  padding: 30px 70px;
+}
+}
+
+@media screen and (max-width: 750px) {
+.hero {
+  flex-direction: column;
+  gap: 50px;
+  align-items: start;
+}
+
+header{
+  margin-top: 0px;
+  margin-bottom: 150px;
+}
+
+.body{
+  align-items: start;
+}
+
+.input input {
+  width: 300px;
+}
+
+.flex .square {
+  width: 200px;
+}
+
+.hero h1 {
+  font-size: 30px;
+}
+
+.content {
+  max-width: 400px;
+}
+
+.arrow {
+  left: -70px;
+  width: 350px;
+  top: 170px;
+  z-index: 10;
+}
+
+body {
+  overflow: visible;
+}
+}
+
+@media screen and (max-width: 420px) {
+  .body{
+    padding: 0;
+    width: 100%;
+  }
+
+  .hero{
+    width: 100%;
+  }
+
+  .modal .div.active{
+    left: 60px;
+  }
+}
+
+
+@media screen and (max-width:435px) {
+  .button{
+    width: 100%;
+  }
+}
